@@ -229,10 +229,39 @@ let natija = email.includes("@");
 // console.log(age !== 30) ! bu flaseni truega aylantiradi va aksi
 
 // LESSON-16
-let age = 19;
+// let age = 19;
 
 // kuchlisiz taqoslashlar
 
 // ================
+
+
+// Homework
+
+
+// let number = parseInt(prompt("Istalgan musbat son kiriting:"));
+// let sum = 0; // Tub sonlar yig'indisi
+
+// console.log("Tub sonlar:");
+// for (let i = 2; i <= number; i++) {
+//     let isPrime = true;
+
+//     // Tub sonligini tekshirish
+//     for (let j = 2; j <= Math.sqrt(i); j++) {
+//         if (i % j === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+
+//     if (isPrime) {
+//         console.log(i); // Tub sonni chiqarish
+//         sum += i; // Yig'indiga qo'shish
+//     }
+// }
+
+// console.log("Tub sonlar yig'indisi:", sum);
+
+
 
 
