@@ -157,6 +157,154 @@
 // }
 // console.log("Massivdagi eng kichik element:", engKichik);
 
-
 // 12-masala
 
+// Homework
+
+// let massiv = [4, 5, 7, 8, 10];
+// let yigindi = 0;
+// for (let i = 1; i < massiv.length; i += 2) {
+//     yigindi += massiv[i];
+// }
+// console.log(yigindi);
+
+// 13-masala
+
+// const a = [2, 3, 5, 7, 5, 8];
+// let K = 5;
+// for(let i = 1; i += 2){
+// 	K += a[i]
+// }
+// console.log(K)
+
+// const massiv = [3, 5, 2, 5, 7, 5, 8];
+// const K = 5;
+// let count = 0;
+
+// for (let i = 0; i < massiv.length; i++) {
+//   if (massiv[i] === K) {
+//     count++;
+//   }
+// }
+
+// console.log(`${K} soni massivda ${count} marta uchradi.`);
+
+// 14-masala
+
+// const massiv = [3, 5, 2, 5, 7, 5, 8];
+// const a = [];
+
+// let count = 0;
+// const K = 5;
+
+// for (let i = 0; i > massiv.length; i++) {
+//     for (b of massiv) {
+//         if (b !== K) {
+//             a.push(b);
+//             console.log(b);
+//         }
+//     }
+// }
+
+// 15-masala
+
+// let a = [1, 2, 3, 4, 5];
+// let b = 0;
+// for (let i = 0; i < a.length; i++) {
+//     b += a[i];
+// }
+// let c = b / a.length;
+// let d = [];
+// for (g of a) {
+//     if (c < g) {
+//         d.push(g);
+//     }
+// }
+// console.log(d);
+
+// 16-masala
+
+// const a = [1, 4, 5, 7, 9, 10, 45];
+// let b = [];
+// let c = [];
+// for (i of a) {
+//     if (i % 2 == 0) {
+//         c.push(i);
+//     }
+// }
+// console.log(c);
+// for (i of a) {
+//     if (i % 2) {
+//         b.push(i);
+//     }
+// }
+// console.log(b);
+
+// 17-masala
+
+// const massiv = [5, 10, 7, 4];
+// let yangiQiymat = [];
+// for()
+
+// =======================
+
+// let massiv = [10, 15, 25, 20, 30, 40];
+
+// let farqlar = [];
+
+// for (let i = 0; i < massiv.length - 1; i++) {
+//     let farq = massiv[i + 1] - massiv[i];
+//     farqlar.push(farq);
+// }
+
+// console.log("Massivdagi elementlar orasidagi farqlar:", farqlar);
+
+// 18-masala
+
+// let massiv = [4, 5, 7, 8, 10];
+// let yigindi = 0;
+// for (let i = 1; i < massiv.length; i += 2) {
+//   console.log(yigindi);
+// }
+
+//==============
+
+// let a = [-1, 2, 3, -4, 5, -6];
+// let b = [];
+// let p = 0;
+// let o = 0;
+// let c = [];
+// for (r of a) {
+//     if (r < 0) {
+//         b.push(r);
+//     }
+// }
+// console.log(b);
+// for (g of a) {
+//     if (g > 0) {
+//         c.push(g);
+//     }
+// }
+// console.log(c);
+
+// 19-masala
+
+// const a = [1, 2, 3, 4, 5, 6, 7];
+// let b = [];
+// for (let i = a.length - 0; i >= 0; i--) {
+//     b.push(i);
+//     console.log(i);
+// }
+
+// 20-masala
+
+let massiv = [10, 15, 25, 20, 30, 40];
+
+let farqlar = [];
+
+for (let i = 0; i < massiv.length - 1; i++) {
+    let farq = massiv[i + 1] - massiv[i];
+    farqlar.push(farq);
+}
+
+console.log("Massivdagi elementlar orasidagi farqlar:", farqlar);
