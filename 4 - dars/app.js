@@ -103,3 +103,208 @@
 
 // MASALALAR
 
+// 1-masala
+
+// const massiv = [1, 3, 5, 7, 9];
+
+// console.log(massiv);
+
+// =================
+
+// let n = parseInt(prompt("n ni kiriting:"));
+
+// let massiv = [];
+// let son = 1;
+
+// for (let i = 0; i < n; i++) {
+//     massiv.push(son);
+//     son += 2;
+// }
+
+// console.log("Dastlabki " + n + " ta toq son:", massiv);
+
+// 2-masala
+
+// let n = parseInt(prompt("n ni kiriting:"));
+
+// let massiv = [];
+// let son = 1;
+
+// for (let i = 0; i < n; i++) {
+//     massiv.push(son);
+//     son *= 2;
+// }
+
+// console.log("Dastlabki " + n + " ta toq son:", massiv);
+
+// 3-masala
+
+// let n = [];
+
+// let a = prompt("son kiriting:");
+// let c = 10;
+// let d = 5;
+
+// for (let i = 0; i <= n; i++) {
+//     c += d;
+//     n.push(c);
+// }
+// console.log(n);
+
+// ==============
+
+// let c = [];
+// let n = prompt("son kiriting: ");
+// let a = 10;
+// let d = 5;
+// for (let i = 0; i <= n; i++) {
+//     a += d;
+//     c.push(a);
+// }
+// console.log(c);
+
+// 4-masala
+
+// let c = [];
+// let n = prompt("son kiriting: ");
+// let a = 10;
+// let d = 5;
+// for (let i = 0; i <= n; i++) {
+//     a *= d;
+//     c.push(a);
+// }
+// console.log(c);
+
+// 5-masala
+
+// let n = prompt("son kiriting: ");
+
+// 6-masala
+
+// let n = prompt("son kiriting: ");
+
+// let arr = [20, 30, 40, 50 ];
+// let c = [];
+// {
+//     if (arr > i) arr.push(c);
+//     arr.sort();
+// }
+// console.log(c);
+
+// ================
+
+// let n = +prompt("Son kiriting:");
+
+// let arr = [20, 10, 50, 40, 80];
+// let i = [];
+
+// arr.sort(arr);
+// arr.push(i);
+
+// console.log(i);
+
+// ====================
+
+// const arr = [20, 10, 50, 40, 80];
+
+// arr.sort((a, b) => a - b);
+
+// let i = [...arr];
+
+// console.log(i);
+
+// ===================
+
+// let a = [89,77,55,10,7,6]
+// let c = 50
+// let b = []
+// for(let i of a){
+//     if(c>i){
+//         b.push(i)
+//     }
+// }
+// b.sort()
+
+// console.log(b)
+
+// ===================
+
+// 7-masala
+
+// let arr = ["a", 12, 23, "b"];
+
+// let c = [];
+// for (let i of arr) {
+//     if (typeof i == `string`) {
+//         c.push(i);
+//     }
+// }
+
+// console.log(c);
+
+// 8-masala
+
+// const a = [12, 12, 3, 5, 5, 8];
+// let s = [];
+// for (let i of a) {
+//     if (a.includes())
+// 			s.push(i);
+// }
+// console.log(s);
+
+// ================
+
+// const a = [12, 12, 3, 5, 5, 8, 11, 11];
+// let s = [];
+
+// for (let i of a) {
+//     if (a.indexOf(i) === a.lastIndexOf(i)) {
+//         s.push(i);
+//     }
+// }
+
+// console.log(s);
+
+// 9-masala
+
+// let c = +prompt("son kiriting iltimos: ");
+
+// const a = [2, 5, 6, 8, 9, 15];
+// let d = 0;
+// let j = 0;
+
+// for (let i of a) {
+//     if (i > n) {
+//         d++;
+//         j += i;
+//     }
+// }
+// if (d > 0) {
+//     console.log("O‘rtacha:", j / d);
+// } else {
+//     console.log("Bunday son yo‘q.");
+// }
+// console.log("Sonlar soni:", d);
+
+// =================
+
+// const a = [12, 15, 8, 20, 3, 25];
+// let d = 0;
+// let j = 0;
+
+// let n = 10; // Masalan, 10 dan katta sonlarni hisoblash
+
+// for (let i of a) {
+//     if (i > n) {
+//         d++;      // sonlar soni
+//         j += i;   // yig'indisi
+//     }
+// }
+
+// if (d > 0) {
+//     console.log("O‘rtacha:", j / d);
+// } else {
+//     console.log("Bunday son yo‘q.");
+// }
+// console.log("Sonlar soni:", d);
+
