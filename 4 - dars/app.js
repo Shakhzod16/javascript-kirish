@@ -288,18 +288,22 @@
 
 // =================
 
+// 11-masala
+
 // const a = [12, 15, 8, 20, 3, 25];
 // let d = 0;
 // let j = 0;
 
-// let n = 10; // Masalan, 10 dan katta sonlarni hisoblash
+// let n = 10; 
 
 // for (let i of a) {
 //     if (i > n) {
-//         d++;      // sonlar soni
-//         j += i;   // yig'indisi
+//         d++;     
+//         j += i;  
 //     }
 // }
+
+
 
 // if (d > 0) {
 //     console.log("O‘rtacha:", j / d);
@@ -307,4 +311,6 @@
 //     console.log("Bunday son yo‘q.");
 // }
 // console.log("Sonlar soni:", d);
+
+// 12-masala
 
