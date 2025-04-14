@@ -196,17 +196,17 @@
 // < ========== >
 
 
-function NumMax() {
-	const a = [2, 3, 5, 7, 1, 23];
-	let b = [];
+// function NumMax() {
+// 	const a = [2, 3, 5, 7, 1, 23];
+// 	let b = [];
 
-	for (let i of a) {
-			if (i * 2 >= 10) {
-					b.push(i);
-			}
-	}
+// 	for (let i of a) {
+// 			if (i * 2 >= 10) {
+// 					b.push(i);
+// 			}
+// 	}
 
-	console.log(b); // Natija: [5, 7, 23]
-}
+// 	console.log(b); // Natija: [5, 7, 23]
+// }
 
-NumMax();
+// NumMax();
