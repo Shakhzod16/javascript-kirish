@@ -200,7 +200,6 @@
 // 	const a = [2, 3, 5, 7, 1, 23];
 // 	let b = [];
 
-<<<<<<< HEAD
 // 	for (let i of a) {
 // 			if (i * 2 >= 10) {
 // 					b.push(i);
@@ -465,7 +464,6 @@
 // console.log(firstDuplicate([1, 2, 3, 4, 5]));        // Natija: -1
 // console.log(firstDuplicate([5, 5, 1, 2, 10]));       // Natija: 5
 // console.log(firstDuplicate([1, 2, 3, 4, 'string'])); // Natija: Massiv faqat sonlar bo‘lishi kerak
-=======
 // function NumMax() {
 // 	const a = [2, 3, 5, 7, 1, 23];
 // 	let b = [];
@@ -480,4 +478,3 @@
 // }
 
 // NumMax();
->>>>>>> f25cc7a142af07736dd18d9539e4454e314754f1
