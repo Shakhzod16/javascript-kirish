@@ -478,3 +478,36 @@
 // }
 
 // NumMax();
+
+// < ===== masala ===== >
+
+// let  a = [55,66,45,55,88,1,88]
+// let b = []
+// function dublicateElem(){
+
+//     for(let i of a.reverse()){
+//         if(b.includes(i)){
+//             console.log(i)
+//             break
+//         }else{
+//             b.push(i)
+//         }
+//     }
+// }
+// dublicateElem()
+
+// < ===== masala ===== >
+
+// let a = [55, 66, 45, 55, 88, 1, 88];
+// let b = [];
+// function dublicateElem() {
+//     for (let i of a) {
+//         if (b.includes(i)) {
+//             console.log(i);
+//             break;
+//         } else {
+//             b.push(i);
+//         }
+//     }
+// }
+// dublicateElem();
