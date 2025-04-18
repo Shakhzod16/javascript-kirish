@@ -118,4 +118,3 @@
 // JuftSon();
 
 // ===== Masala ===== Massivdagi elementlarni O'ndan katta sonlar chiqarish
-
